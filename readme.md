@@ -2,6 +2,10 @@
 
 ---
 
+##TEAM
+1. Annanya Sharma (PES1UG24CS069)
+2. Ayushi Srivastava (PES1UG24CS105)
+
 ## 1. Build, Load, and Run Instructions
 
 > These steps assume a fresh Ubuntu 22.04/24.04 VM with Secure Boot disabled.
@@ -117,14 +121,22 @@ make clean
 
 ## 2. Screenshots
 
-1. Multi-container supervision
+1. Multi-container supervision 
+![multi-container](images/1.png)
 2. Metadata tracking
+![m](images/2.png)
 3. Bounded-buffer logging
+![m](images/3.png)
 4. CLI and IPC
+![m](images/4.png)
 5. Soft-limit warning
+![m](images/5.png)
 6. Hard-limit enforcement
+![m](images/6.png)
 7. Scheduling experiment
+![m](images/7.png)
 8. Clean teardown
+![m](images/8.png)
 
 ---
 
@@ -269,6 +281,8 @@ To evaluate Linux scheduling behavior, we conducted a concurrent experiment usin
 
 - `cpu_hog` (CPU-bound) with `nice = 10` (lower priority)
 - `io_pulse` (I/O-bound) with `nice = 0` (higher priority)
+
+  ![multi-container](images/time.png)
 
 ### Results
 
