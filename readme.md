@@ -2,7 +2,7 @@
 
 ---
 
-##TEAM
+## TEAM
 1. Annanya Sharma (PES1UG24CS069)
 2. Ayushi Srivastava (PES1UG24CS105)
 
